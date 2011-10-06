@@ -40,10 +40,8 @@ module OmniAuth
       end
       
       def auth_hash
-        OmniAuth::Utils.deep_merge(super, {
-          'uid' => @name_id
-        })
-      end  
+        OmniAuth::Utils.deep_merge(super, {'uid' => @name_id, 'user_info' => @attributes})
+      end
             
     end
   end
