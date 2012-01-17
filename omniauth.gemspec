@@ -9,6 +9,7 @@ Gem::Specification.new do |gem|
   gem.description = %q{OmniAuth is an authentication framework that separates the concept of authentiation from the concept of identity, providing simple hooks for any application to have one or multiple authentication providers for a user.}
   gem.email = ['michael@intridea.com', 'sferik@gmail.com']
   gem.files = Dir.glob("lib/**/*") + %w(README.md LICENSE.md)
+
   gem.homepage = 'http://github.com/intridea/omniauth'
   gem.name = 'omniauth'
   gem.require_paths = ['lib']
